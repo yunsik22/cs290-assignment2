@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Cs290-assignment2 : [cs290] assignment2">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Cs290-assignment2</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yunsik22/cs290-assignment2">View on GitHub</a>
+
+          <h1 id="project_title">Cs290-assignment2</h1>
+          <h2 id="project_tagline">[cs290] assignment2</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yunsik22/cs290-assignment2/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yunsik22/cs290-assignment2/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE html&gt;
+
+</p>
+    
+    [CS 290] Assignment2
+
+<pre><code>&lt;style type="text/css"&gt;
+    .mytbl tr:nth-child(odd){
+        background: #ADD8E6;
+    }
+    .mytbl tr:nth-child(even){
+        background: #90EE90;
+    }
+
+    .mytbl td:nth-child(2){
+        color: rgb(255,0,0);
+    }
+
+    .mytbl td:nth-child(4){
+        color: rgb(0,0,255);
+    }
+
+    .mytbl tr:nth-child(1){
+        font-weight: bold;
+        background: #ffffff;
+    }
+
+    .mytbl td:nth-child(1){
+        font-style: italic;
+        text-align: center;
+    }
+
+    .mytbl tr:nth-child(7) td:nth-child(1){
+        background: #ffffff;
+        color: rgb(0,0,0);
+        font-style: normal;
+        text-align: left;
+    }
+
+    .mytbl tr:nth-child(7) td:nth-child(2){
+        background: #ffffff;
+        color: rgb(0,0,0);
+    }
+
+    dt:hover + dd{
+        background-color: #800080;
+    }
+
+    .div_boxed{
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    .outer-content{
+        width: 75%;
+        background-color: pink;
+    }
+
+    .inner-content{
+        background-color: rgb(0,0,255);
+        color: yellow;
+        text-align: center;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+&lt;/style&gt;
+</code></pre>
+
+<p></p>
+
+<p></p>
+    <table border="1">
+    Who wins? Cell content indicates the status of the row entry.
+    <tr>
+        <td></td>
+        <td>Godzilla</td>
+        <td>Batman</td>
+        <td>Shaq</td>
+        <td>Aaron Carter</td>
+        <td>Abe Lincoln</td>
+    </tr>
+    <tr>
+        <td>Godzilla</td>
+        <td>N/A</td>
+        <td>Minor Loss</td>
+        <td>Loss</td>
+        <td>Unknown</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Batman</td>
+        <td>Minor Win</td>
+        <td>N/A</td>
+        <td>Total Victory</td>
+        <td>Total Victory</td>
+        <td>Total Loss</td>
+    </tr>
+    <tr>
+        <td>Shaq</td>
+        <td>Win</td>
+        <td>Total Loss</td>
+        <td>N/A</td>
+        <td>Minor Loss</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Aaron Carter</td>
+        <td>Unknown</td>
+        <td>Total Loss</td>
+        <td>Minor Win</td>
+        <td>N/A</td>
+        <td>Unknown</td>
+    </tr>
+    <tr>
+        <td>Abe Lincoln</td>
+        <td>Unknown</td>
+        <td>Total Victory</td>
+        <td>Unknown</td>
+        <td>Unknown</td>
+        <td>N/A</td>
+    </tr>
+    <tr>
+        <td colspan="2">Footer 1</td>
+        <td colspan="4">Footer 2</td>
+    </tr>
+    </table>
+
+<pre><code>&lt;dl&gt;
+    &lt;dt&gt;Best language&lt;/dt&gt;
+        &lt;dd&gt;Python&lt;/dd&gt;
+    &lt;dt&gt;Weird language&lt;/dt&gt;
+        &lt;dd&gt;Pascal&lt;/dd&gt;
+    &lt;dt&gt;Easy language&lt;/dt&gt;
+        &lt;dd&gt;Nothing is easy&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class="div_boxed"&gt;
+    &lt;p&gt;&lt;b&gt;Some POST Data&lt;/b&gt;&lt;/p&gt;
+    &lt;form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post"&gt;
+        Text here: &lt;input type="text" name="text_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Number here: &lt;input type="number" name="numerical_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Password here: &lt;input type="password" name="password_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Select between:
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="snickers"&gt;Snickers
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="skittles"&gt;Skittles
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="mentos"&gt;Mentos
+        &lt;/br&gt;
+        &lt;/br&gt;
+        &lt;input type="submit"&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+&lt;div style="height:20px"&gt;
+&lt;/div&gt;
+
+&lt;div class="div_boxed"&gt;
+    &lt;p&gt;&lt;b&gt;Some GET Data&lt;/b&gt;&lt;/p&gt;
+    &lt;form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get"&gt;
+        Text here: &lt;input type="text" name="text_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Number here: &lt;input type="number" name="numerical_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Password here: &lt;input type="password" name="password_input"&gt;
+        &lt;/br&gt;
+        &lt;/br&gt;
+        Select between:
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="snickers"&gt;Snickers
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="skittles"&gt;Skittles
+        &lt;/br&gt;
+        &lt;input type="radio" name="candy" value="mentos"&gt;Mentos
+        &lt;/br&gt;
+        &lt;/br&gt;
+        &lt;input type="submit"&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+&lt;div style="height:20px"&gt;
+&lt;/div&gt;
+
+&lt;div class="outer-content"&gt;
+    &lt;div style="height:20px"&gt;
+    &lt;/div&gt;
+    &lt;div class="inner-content"&gt;
+        Here is some content.
+    &lt;/div&gt;
+    &lt;div style="height:20px"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style="height:20px"&gt;
+&lt;/div&gt;
+
+&lt;div class="div_boxed"&gt;
+    &lt;p&gt;
+        &lt;img src="sunrise.jpg" align="left"&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus dapibus orci in finibus. 
+        Suspendisse pulvinar sapien in lectus tincidunt, a hendrerit turpis ultrices. 
+        Phasellus ultrices mi sit amet consectetur varius. Morbi accumsan rhoncus consectetur. 
+        Donec sagittis metus vitae quam vulputate, vel euismod arcu eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nunc efficitur nulla nunc, quis vestibulum erat tincidunt id. In tortor mauris, luctus eu pretium cursus, faucibus vel mi. 
+        Sed faucibus ultrices nibh, eget commodo neque porttitor non. Ut ultricies sem lacus, et consectetur sapien pellentesque et. 
+        Duis eget malesuada neque, sed tincidunt nulla. Etiam vel volutpat leo, vel vulputate quam. 
+        In pellentesque aliquam nulla, eu viverra metus porta non. Fusce et vulputate ipsum. Suspendisse potenti.
+        Pellentesque faucibus erat sed neque convallis, vitae interdum justo sollicitudin. 
+        Sed sed leo et dui sollicitudin tincidunt. Morbi feugiat lacinia imperdiet. Nullam pharetra purus ac lobortis eleifend. 
+        Nunc posuere volutpat eros et posuere. Mauris vel leo sodales erat faucibus maximus in nec tortor. Integer cursus ut nunc eu tincidunt. 
+        Phasellus eget nibh ante. Nunc iaculis eu lectus vitae malesuada. Sed eu ante vestibulum tortor hendrerit vulputate. Nulla eget varius enim. 
+        Mauris hendrerit mi mi, id facilisis mi hendrerit sed. Integer ut nunc ut est elementum cursus eu ac massa. 
+        Praesent aliquet est quam. Mauris ac congue nisl.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Quisque metus felis, fringilla et nibh eget, rutrum pretium arcu. Nullam ac molestie libero. 
+        Sed ac congue sapien. Nullam lobortis odio libero, non volutpat ligula condimentum eget. 
+        Sed ullamcorper, odio non tristique malesuada, nulla massa suscipit neque, ut aliquam velit ante eget erat. 
+        Quisque est nisl, interdum sit amet dolor sit amet, tempus semper turpis. Duis non leo eu lectus tempor aliquet. 
+        Mauris ullamcorper feugiat nisi, sed porttitor tortor ultrices non. Mauris nec turpis mattis, elementum orci sed, convallis nunc. 
+        Praesent porttitor augue turpis, non bibendum erat rutrum quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+        In ultricies ipsum lacus, non varius lectus auctor vel. Donec quis est fermentum, cursus purus et, porta odio.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ut facilisis ex, sed tincidunt ex. 
+        Fusce tempor rutrum ex, dignissim aliquam erat imperdiet quis. Vivamus risus mi, consequat et elementum vel, facilisis vel eros. 
+        Morbi congue pellentesque tincidunt. Maecenas nec lacus condimentum, congue nisl non, pharetra ligula. Sed vel placerat ipsum.
+    &lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>
+</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Cs290-assignment2 maintained by <a href="https://github.com/yunsik22">yunsik22</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
